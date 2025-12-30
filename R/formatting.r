@@ -90,16 +90,17 @@ create_param_formatter <- function(...) {
 }
 
 #' Format to Print as List Item
-#' 
+#'
 #' Takes an object and returns a character vector representing how
 #' the object should be printed as a list item.
-#' 
+#'
 #' @param x the object to be printed
 #' @param n the number of levels to indent output
 #' @param skip the number of lines of output to skip
-#' 
+#'
 #' @return a character vector of output as list item
-#' 
+#'
+#' @importFrom utils capture.output
 #' @export 
 #' 
 #' @examples 

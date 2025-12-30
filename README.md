@@ -1,18 +1,24 @@
 
-# herotools
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# openqalytools
 
 <!-- badges: start -->
-[![CircleCI build status](https://circleci.com/gh/PolicyAnalysisInc/herotools.svg?style=svg)](https://circleci.com/gh/PolicyAnalysisInc/herotools)
-[![Codecov test coverage](https://codecov.io/gh/PolicyAnalysisInc/herotools/branch/main/graph/badge.svg)](https://app.codecov.io/gh/PolicyAnalysisInc/herotools?branch=main)
+
+[![CircleCI build
+status](https://circleci.com/gh/PolicyAnalysisInc/openqalytools.svg?style=svg)](https://app.circleci.com/pipelines/github/PolicyAnalysisInc/openqalytools)
+[![Codecov test
+coverage](https://codecov.io/gh/PolicyAnalysisInc/openqalytools/branch/main/graph/badge.svg)](https://app.codecov.io/gh/PolicyAnalysisInc/openqalytools?branch=main)
 <!-- badges: end -->
 
-The herotools package provides a set of utility functions for use by heromod, herosurv, and other hero-related packages.
+The openqalytools package provides a set of utility functions for use by
+openqaly, openqalysurv, and other openqalyverse packages.
 
 ## Installation
 
-You can install the development version of herotools like so:
+You can install the development version of openqalytools like so:
 
 ``` r
 library(devtools)
-install_github("PolicyAnalysisInc/herotools")
+install_github("PolicyAnalysisInc/openqalytools")
 ```

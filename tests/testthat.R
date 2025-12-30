@@ -1,4 +1,4 @@
 library(testthat)
-library(herotools)
+library(openqalytools)
 
-test_check("herotools")
+test_check("openqalytools")

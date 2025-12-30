@@ -1,14 +1,14 @@
-Package: herotools
-Title: Helper functions for the hero family of packages
+Package: openqalytools
+Title: Helper Functions for the Openqalyverse
 Version: 1.0.0
 Authors@R: 
     person("Jordan", "Amdahl", , "jamdahl@pai2.com", role = c("aut", "cre"))
 Maintainer: Jordan Amdahl <jamdahl@pai2.com>
-Description: Provides a set utility functions for use by herosurv, heromod, and other related packages.
+Description: Provides a set of utility functions for use by openqalysurv, openqaly, and other openqalyverse packages.
 License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("namespace", "rd", "roxytest::testthat_roclet"))
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2
 Suggests: 
     covr,
     testthat (>= 3.0.0)

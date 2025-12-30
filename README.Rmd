@@ -1,0 +1,32 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# openqalytools
+
+<!-- badges: start -->
+[![CircleCI build status](https://circleci.com/gh/PolicyAnalysisInc/openqalytools.svg?style=svg)](https://app.circleci.com/pipelines/github/PolicyAnalysisInc/openqalytools)
+[![Codecov test coverage](https://codecov.io/gh/PolicyAnalysisInc/openqalytools/branch/main/graph/badge.svg)](https://app.codecov.io/gh/PolicyAnalysisInc/openqalytools?branch=main)
+<!-- badges: end -->
+
+The openqalytools package provides a set of utility functions for use by openqaly, openqalysurv, and other openqalyverse packages.
+
+## Installation
+
+You can install the development version of openqalytools like so:
+
+``` r
+library(devtools)
+install_github("PolicyAnalysisInc/openqalytools")
+```
