@@ -9,11 +9,7 @@ License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("namespace", "rd", "roxytest::testthat_roclet"))
 RoxygenNote: 7.3.3
-Imports:
-    htmltools,
-    jsonlite,
-    shiny
-Suggests: 
+Suggests:
     covr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
