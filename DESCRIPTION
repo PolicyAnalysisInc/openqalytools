@@ -1,11 +1,13 @@
 Package: openqalytools
 Title: Helper Functions for the Openqalyverse
 Version: 1.0.0
-Authors@R: 
-    person("Jordan", "Amdahl", , "jamdahl@pai2.com", role = c("aut", "cre"))
-Maintainer: Jordan Amdahl <jamdahl@pai2.com>
+Authors@R: c(
+    person("Jordan", "Amdahl", , "jordan.amdahl@avalerehealth.com", role = c("aut", "cre")),
+    person("Avalere Health", role = "cph")
+  )
+Maintainer: Jordan Amdahl <jordan.amdahl@avalerehealth.com>
 Description: Provides a set of utility functions for use by openqalysurv, openqaly, and other openqalyverse packages.
-License: AGPL (>= 3)
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("namespace", "rd", "roxytest::testthat_roclet"))
 RoxygenNote: 7.3.3
